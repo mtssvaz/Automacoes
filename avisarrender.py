@@ -5,10 +5,13 @@ no Telegram quando o processo terminar.
 
 ── Configuração ──────────────────────────────────────────────────
 1. Crie um bot no Telegram falando com @BotFather → /newbot
+
 2. Copie o TOKEN gerado e cole em BOT_TOKEN abaixo
-3. Inicie uma conversa com seu bot e acesse:
-   https://api.telegram.org/bot<SEU_TOKEN>/getUpdates
-   para pegar seu CHAT_ID
+
+3. ATENCAO IMPORTANTE Inicie uma conversa com seu bot e acesse na sua maquina:
+   https://api.telegram.org/bot11111:AAE-iiiiiEXEMPLO/getUpdates
+   para pegar seu CHAT_ID que seria por exemplo "id":111111, copie só o numero
+   
 4. Cole o CHAT_ID abaixo e salve o arquivo
 ──────────────────────────────────────────────────────────────────
 """
@@ -18,8 +21,9 @@ import requests
 import psutil
 
 # ── ⚙️  CONFIGURAÇÕES — edite aqui ───────────────────────────────
-BOT_TOKEN = "SEU_TOKEN_AQUI"       # ex: 7412345678:AAFxxxxxx
-CHAT_ID   = "SEU_CHAT_ID_AQUI"    # ex: 123456789
+BOT_TOKEN = "11111:AAE-iiiiiEXEMPLO"
+CHAT_ID   = "11111"
+
 
 # Nome do processo do Premiere no Windows
 PROCESSO_PREMIERE = "Adobe Premiere Pro.exe"
